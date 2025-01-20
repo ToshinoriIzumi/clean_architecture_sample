@@ -10,11 +10,11 @@ cd [アプリのルートディレクトリ]
 - イメージの作成
 
 ```bash
-docker build . -t streamlit_sample_app_env
+docker build . -t clean_architecture_sample_app
 ```
 
 - コンテナの起動
 
 ```bash
-docker run -p 8501:8501 -v $(pwd)/src:/opt/app/src --rm  --name streamlit_sample_app_env -it streamlit_sample_app_env
+docker run -p 8501:8501 -v $(pwd)/src:/opt/app/src --rm  --name clean_architecture_sample_app -it clean_architecture_sample_app
 ```
